@@ -1,0 +1,31 @@
+package com.heo.intro01;
+
+public class FDADFF {
+	public static void main(String[] args) {
+		
+		int[] iEvenOddCountArr = {1,2,3,4,5,6,7,8,9,10};
+		while(iEvenOddCountArr[0]) {
+			System.out.println("짝수");
+		}
+		
+		
+		
+		
+		
+//		iEvenOddCountArr[0] :짝수 갯수, iEvenOddCountArr[1] :홀수 갯수
+		
+		
+		
+		
+//		int iWhileValue = 1;
+//		while(iWhileValue <= 30) {
+//			System.out.println(iWhileValue);
+//			iWhileValue++;
+//		}
+
+		//짝수 /홀수 판단 
+		
+		//짝수/홀수 갯수 출력 
+		
+	}
+}

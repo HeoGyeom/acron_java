@@ -1,0 +1,16 @@
+package com.acorn.java02;
+
+public class VariableMain02 {
+	public static void main(String[] args) {
+			
+	// 강제(명시적) 전환
+	//(데이터타입)
+	int testDate = 200;
+	short testDate2;
+	//testDate2 = (short)testdate;
+	byte byteNumber = 0;
+	short shortNumber = 257;
+	byteNumber = (byte)shortNumber;
+	System.out.println(byteNumber);
+	}
+}

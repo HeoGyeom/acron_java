@@ -1,0 +1,16 @@
+package com.acorn.java02;
+
+public class VariableMain03 {
+ public static void main(String[] args) {
+	int number = 10;
+	System.out.println("1:"+ (number >= 100));
+	System.out.println("2:"+ (number != 100));
+	
+	int score =50;
+	int mean = 55;
+	System.out.println("3:" + (score >=40));
+	System.out.println("4:" + ((score>=40)||(mean >=60)));
+	System.out.println("4:" + ((score>=40)&&(mean >=60)));
+}
+ 
+}

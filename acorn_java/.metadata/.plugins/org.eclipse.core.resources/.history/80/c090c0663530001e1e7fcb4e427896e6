@@ -1,0 +1,48 @@
+package com.heo.intro01;
+
+import java.util.Scanner;
+
+public class Study02 {
+	public static void main(String[] args) {
+		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.println("국어점수:>>>");
+//		int nlpoint = sc.nextInt();
+//		System.out.println("영어점수:>>>");
+//		int elpoint = sc.nextInt();
+//		System.out.println("수학점수:>>>");
+//		int matlpoint = sc.nextInt();
+//		
+//		System.out.println("전체 점수의 합:" + (nlpoint + elpoint + matlpoint));
+		
+	//과목별 과락 점수를 지정 	
+	//임의의 과목 3개에 대해 각각의 점수를 입력 받는다 
+	//모든 점수를 합산
+	//모든 점수의 평균을 구한다.
+	//합산 점수의 합격/불합격 여부를 판단 
+	//평균 점수의 합격/불합격 여부 결정 
+	//과락 기준에 여부에 따른 합격/불합격 여부 결정 
+	//합격 or 불합격 결과 및 이유 출력
+		
+		
+	int a =50;
+	int b =50;
+	int c =50;
+	
+	Scanner sc = new Scanner(System.in);
+	
+	System.out.println("국어점수:>>>");
+	int nlpoint = sc.nextInt();
+	System.out.println("영어점수:>>>");
+	int elpoint = sc.nextInt();
+	System.out.println("수학점수:>>>");
+	int matlpoint = sc.nextInt();
+	
+	System.out.println("전체 점수의 합:" + ((nlpoint + elpoint + matlpoint) / 3));
+	
+	
+		
+	
+	}
+}

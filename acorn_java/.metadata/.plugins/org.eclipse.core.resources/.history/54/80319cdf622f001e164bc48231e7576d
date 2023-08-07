@@ -1,0 +1,23 @@
+package com.heo.intro01;
+
+public class IntroMain {
+	
+	public static void main(String[] args) {
+		int number1 = 7;
+		if(number1 % 2 ==0) {
+			System.out.println("짝수");
+		}else {
+			System.out.println("홀수");
+		}
+		
+		int number2 = 5s;
+		if(number2 < 0) {
+			System.out.println("음수");
+		}else if(number2 > 0){
+			System.out.println("양수");
+		}else {
+			System.out.println("0");
+		}
+	}
+ 
+}

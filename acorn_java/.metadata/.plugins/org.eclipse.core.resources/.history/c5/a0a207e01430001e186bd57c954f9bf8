@@ -1,0 +1,105 @@
+package com.heo.intro01;
+
+public class Study { 
+	public static void main(String[] args) {
+//	//------------정수---------------
+//		//코드 입력 파트2
+//		//일반 변수 선언(초기화)
+//		byte bNumber =0; // 가장 작은 숫자 
+//		System.out.println(bNumber); //-128~127
+//		
+//		
+//		short sNumber =0;
+//		System.out.println(sNumber);
+//		
+//		int iNumber;
+//		iNumber = 0;
+//		System.out.println(iNumber);
+////		sNumber = (short)iNumber //암묵적 변환 왼쪽에 더 큰수 
+//		
+//		
+//		
+//		long lNumber = 0L;
+//		System.out.println(lNumber);
+//		
+//	//----------실수----------------
+//		
+//		Float fNumber = 0.0F;
+//		System.out.println(fNumber);
+//		
+//		char cChar = 'c'; //싱글 '
+//		System.out.println(cChar);
+//		String str = "str"; //더블 "
+//		System.out.println(str);
+//		
+//		//특수 변수
+//		byte[] bNumberArr = {1,2,3,4,5};
+//		System.out.println(bNumberArr.length);
+//		int size = bNumberArr.length;
+////		System.out.println(bNumberArr [3]);
+//		System.out.println(bNumberArr[size-2]);
+//		
+//		//조건문
+////		if/switch-case
+//		//1~10
+//		
+//		int[] iNumberArr = {1,2,3,4,5,6,7,8,9,10};
+//		int iIndex = 0;
+//		
+//		if(iNumberArr [iIndex] %1 ==0) {}
+//		else if(iNumberArr[iIndex] % 2 ==0){
+//			System.out.println("even");
+//		}
+//		else if(iNumberArr[iIndex] % 4 ==0){
+//			System.out.println("4의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 6 ==0){
+//			System.out.println("6의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 8 ==0){
+//			System.out.println("8의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 10 ==0){
+//			System.out.println("10의 배수");
+//		} else {
+//			System.out.println("2의 배수");
+//		}
+//		
+//		
+//		
+//		else if(iNumberArr[iIndex] % 3 ==0){
+//			System.out.println("3의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 5 ==0){
+//			System.out.println("5의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 7 ==0){
+//			System.out.println("7의 배수");
+//		}
+//		else if(iNumberArr[iIndex] % 9 ==0){
+//			System.out.println("9의 배수");
+//		}
+//		
+//		if(iNumberArr[iIndex] % 1 ==0) {
+//			
+//		}
+//		
+//		if(iNumberArr[iIndex] % 1 ==0) {
+//			
+//		}
+		
+		
+		//반복문: for ((선언된 변수를)초기화 ; 조건식; 증감값){}
+//		for(int i=1; i<11; i++) {
+//			System.out.print(i+"  " );
+//		} System.out.println();
+//		System.out.println("출력을 완료 했습니다.");
+//		
+		
+		for(int i=1; i<10; i++) {
+			for(int j= 1; j<10; j++) {
+				System.out.println(i: System.out.println(j););
+			}
+		}
+	}
+}

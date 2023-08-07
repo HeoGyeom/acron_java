@@ -1,0 +1,8 @@
+package com.acorn.java02;
+
+public class VariableMain03 {
+ public static void main(String[] args) {
+	int number = 10;
+	System.out.println(number == 10);
+}
+}
