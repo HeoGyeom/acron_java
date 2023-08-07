@@ -1,4 +1,4 @@
-package com.concept.java0807;
+package java0807;
 
 import java.util.Scanner;
 
